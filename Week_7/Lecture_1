@@ -1,0 +1,60 @@
+# ===============================================================
+
+#       LECTURE : 2 -  List questions
+
+# ===============================================================
+
+# Challenge:- 3
+# Given an array and a target find no. of occurrence of target no in the array
+
+arr  = [2, 9, 5, 2, 6, 3, 2, 3]
+target = 2
+counter = 0
+for x in a:
+	if target == x:
+		counter += 1
+print(counter)
+# Challenge :- 4
+# Given an array and an increment no., generate a new array which contains all values of original array increased by increment value.
+
+arr = [5, 9, 2, 6]
+increment = 10                       #output [15, 19, 12, 16]
+ans = [ ]
+for x in arr:
+	ans.append(x + increment)
+print(ans)
+
+# Without creating empty list
+
+arr = [1, 2, 3, 4, 5]
+inc = 10
+for i in range(len(arr)):
+   arr[i] = arr[i] + inc
+print(arr)
+
+# Challenge:-5
+# Given an array, generate a new array containing square of all numbers.
+arr = [5, 1, 3, 6]      
+b = []
+for x in arr:
+	b.append(x * x)
+print(b)
+
+# Without creating an empty list
+
+arr = [1, 2, 3, 4, 5]
+for i in range(len(arr)):
+   arr[i] = arr[i] ** 2
+print(arr)
+
+
+# Challenge:- 6
+# Given an array, filter out all odd no.
+arr  = [10, 13, 5, 6, 20, 21]
+b = []
+for i in arr:
+	if (i% 2 != 0):
+		b.append(i)
+print(i)
+
+
