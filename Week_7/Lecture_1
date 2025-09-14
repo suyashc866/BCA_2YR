@@ -10,7 +10,7 @@
 arr  = [2, 9, 5, 2, 6, 3, 2, 3]
 target = 2
 counter = 0
-for x in a:
+for x in arr:
 	if target == x:
 		counter += 1
 print(counter)
